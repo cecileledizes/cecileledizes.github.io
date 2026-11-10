@@ -150,18 +150,16 @@
     <path d="M520 400 C 700 400, 760 300, 840 300 S 980 400, 1200 400 Z" fill="#0f3d4e"/>
   </svg>
   <div class="inner">
-    <!-- TODO: put your photo in assets/photo.jpg -->
     <img class="avatar" src="assets/photo.jpg" alt="Portrait of Cécile Le Dizès"
          onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'avatar'}))">
     <div>
       <h1>Cécile Le Dizès</h1>
-      <p class="tagline">Researcher in geophysical fluid dynamics — internal tides, ocean–topography interactions and stratified turbulence, with a focus on scientific computing and numerical methods.</p>
+      <p class="tagline">Researcher in geophysical fluid dynamics — internal tides, ocean–topography interactions and stratified turbulence.</p>
       <div class="pills">
-        <a href="mailto:TODO@example.com">Email</a>                              <!-- TODO -->
+        <a href="mailto:cecile.ledizes@imft.fr">Email</a>
         <a href="https://github.com/cecileledizes">GitHub</a>
-        <a href="https://scholar.google.com/">Google Scholar</a>                <!-- TODO: your profile URL -->
-        <a href="https://orcid.org/">ORCID</a>                                  <!-- TODO: your ORCID URL -->
-        <a href="assets/CV_LeDizes.pdf">CV (PDF)</a>                             <!-- TODO: add the PDF -->
+        <a href="https://scholar.google.com/citations?user=pfihresAAAAJ&hl=fr&oi=ao">Google Scholar</a>
+        <a href="assets/CV_LeDizes.pdf">CV (PDF)</a>
       </div>
     </div>
   </div>
@@ -171,11 +169,9 @@
 
   <section id="about">
     <h2>About</h2>
-    <p class="lead">I study how the ocean's tides, flowing over underwater mountains, generate internal waves that carry energy across ocean basins and ultimately fuel deep-ocean mixing.</p>
+    <p class="lead"> I am a researcher in geophysical fluid dynamics and physical oceanography. I am interested in understanding how small-scale ocean processes control energy exchanges and mixing, and in developing physically based parameterizations for ocean and climate models.</p>
     <p>I completed my PhD in 2025 at the <a href="https://www.imft.fr/">Institut de Mécanique des Fluides de Toulouse</a> (IMFT), supervised by Matthieu Mercier and Olivier Thual, in collaboration with Nicolas Grisouard (University of Toronto). During my PhD I developed a three-dimensional boundary element method for internal tide generation by isolated seamounts. I also worked on the formation of density staircases in rotating, stratified turbulence during the Woods Hole Geophysical Fluid Dynamics program.</p>
-    <p>Before my PhD, I graduated as an engineer from ISAE-Supaéro (Toulouse).</p>
-    <!-- TODO: add a sentence on your current position or what you are looking for, e.g.
-         "I am currently a postdoctoral researcher at ..." -->
+    <p>I am currently looking for a postodoctoral position.</p>
   </section>
 
   <section id="research">
@@ -194,11 +190,28 @@
         <h3>Density layering in rotating, stratified turbulence</h3>
         <p>Stirred stratified fluids can spontaneously organise into staircases: well-mixed layers separated by sharp density interfaces. I investigated how such layering forms when rotation and stratification act together, a question I started during the Geophysical Fluid Dynamics program at Woods Hole.</p>
       </article>
+      <article class="card">
+        <span class="tag">Gravity currents</span>
+        <h3>Flushing of a dense cavity by a gravity current</h3>
+        <p>I designed a laboratory experiment and ran 2D OpenFoam simulations to study entrainment and transport by a gravity current over a dense cavity.</p>
+      </article>
     </div>
   </section>
 
   <section id="publications">
     <h2>Publications</h2>
+    <div class="pub">
+      <p class="title">Three-dimensional modeling of internal tide generation by isolated seamounts</p>
+      <p class="meta"><strong>C. Le Dizès</strong> (2025) </p>
+      <p class="links">
+        <a href="https://theses.hal.science/tel-05773319/document">Link</a>
+        <a href="https://github.com/cecileledizes/ITIDES-3D">Code</a>
+      </p>
+    </div>
+    <div class="pub">
+      <p class="title">Barotropic adjustment to seamounts under rotation and deviations of internal tides direction, in preparation.</p>
+      <p class="meta"><strong>C. Le Dizès</strong>, N. Grisouard, O. Thual &amp; M. J. Mercier — <em>in preparation</em> (2026)</p>
+    </div>
     <div class="pub">
       <p class="title">Three-dimensional modelling of internal tide generation over isolated seamounts in a rotating ocean</p>
       <p class="meta"><strong>C. Le Dizès</strong>, N. Grisouard, O. Thual &amp; M. J. Mercier — <em>Journal of Fluid Mechanics</em> 1022, A5 (2025)</p>
@@ -207,7 +220,20 @@
         <a href="https://github.com/cecileledizes/ITIDES-3D">Code</a>
       </p>
     </div>
-    <!-- TODO: add your PhD thesis (theses.fr / HAL link) and any other paper by copying the block above -->
+    <div class="pub">
+      <p class="title">Mixing and Layering in Stratified Rotating Turbulent Flow</p>
+      <p class="meta"><strong>C. Le Dizès</strong>, J. McElwaine, C. Cenedese &amp; P. Garaud — <em>WHOI proceedings</em> p.253. (2024)</p>
+      <p class="links">
+        <a href="https://gfd.whoi.edu/wp-content/uploads/sites/18/2025/12/2024-GFD-Volume-Online-version-reduced.pdf">Link</a>
+      </p>
+    </div>
+    <div class="pub">
+      <p class="title">Seismology of Altair with MOST</p>
+      <p class="meta"><strong>C. Le Dizès</strong>, M. Rieutord &amp; S. Charpinet — <em>Astronomy & Astrophysics</em> 653, A26 (2021)</p>
+      <p class="links">
+        <a href="https://doi.org/10.1051/0004-6361/202141291">DOI</a>
+      </p>
+    </div>
   </section>
 
   <section id="software">
@@ -258,6 +284,8 @@
         <p class="what">Fellow — Geophysical Fluid Dynamics Program, Woods Hole Oceanographic Institution</p>
         <p class="where">Summer research program</p></div></li>
       <li><span class="year">2022</span><div>
+        <p class="what">Master degree in Fluid dynamics, Energetics and Transfers — Université de Toulouse, Toulouse</p></div></li>
+      <li><span class="year">2022</span><div>
         <p class="what">Engineering degree — ISAE-Supaéro, Toulouse</p></div></li>
     </ul>
     <p style="margin-top:1rem"><a href="assets/CV_LeDizes.pdf">Download full CV (PDF)</a></p>
@@ -266,7 +294,7 @@
   <section id="contact">
     <h2>Contact</h2>
     <div class="contact">
-      <p>The best way to reach me is by email: <a href="mailto:TODO@example.com">TODO@example.com</a></p>  <!-- TODO -->
+      <p>The best way to reach me is by email: <a href="mailto:cecile.ledizes@imft.fr">cecile.ledizes@imft.fr</a></p>  <!-- TODO -->
       <p style="margin:0">Code and slides are on <a href="https://github.com/cecileledizes">GitHub</a>.</p>
     </div>
   </section>
